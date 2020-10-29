@@ -1,0 +1,53 @@
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    white-space: pre-wrap;
+    color: red;
+}
+
+.my-message {
+    background-color: var(--ion-color-primary);
+    color: #fff;
+}
+
+.other-message {
+    background-color: var(--ion-color-secondary);
+    color: #fff;
+}
+
+.time {
+    color: #dfdfdf;
+    float: right;
+    font-size: small;
+}
+
+.message-input {
+    margin-top: 0px;
+    border: 1px solid rgb(11, 238, 219);
+    border-radius: 20px;
+    background: #fff;
+    resize: none;
+    width: 100%;
+    // width: 596% !important;
+}
+
+ion-row {
+    .msg-btn {
+        --padding-start: 0.5em;
+        --padding-end: 0.5em;
+        float: right;
+    }
+    ion-icon {
+        color: var(--ion-color-primary)!important;
+        float: right;
+    }
+}
+
+// .textArea {
+//     width: 100% !important;
+// }
+// textarea {
+//     width: auto;
+//     background: red;
+// }
